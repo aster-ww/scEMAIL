@@ -219,7 +219,7 @@ class target_model(nn.Module):
                     distance_ = torch.bmm(fea_near,fea_bank_re.permute(0, 2, 1))
                     _, idx_near_near = torch.topk(distance_, dim=-1, largest=True,
                                                   k=KK + 1)
-                    idx_near_near = idx_near_near[:, :, 1:]
+                    idx_near_near = idx_near_near[:, :, 1:] # if including a sample itself, we can remove the following self_loss   
                     indx_Tensor = torch.Tensor(indx)
                     indx_ = indx_Tensor.unsqueeze(-1).unsqueeze(-1)
                     match = (idx_near_near == indx_).sum(-1).float()
