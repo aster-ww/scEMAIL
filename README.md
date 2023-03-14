@@ -7,5 +7,5 @@ Current cell-type annotation tools offor single-cell RNA sequencing (scRNA-seq) 
 For more information, please refer to https://doi.org/10.1016/j.gpb.2022.12.008
 
 ## Reference
-Wan H, Chen L, Deng M. scEMAIL: Universal and Source-free Annotation Method for scRNA-seq Data with Novel Cell-type Perception. Genomics Proteomics Bioinformatics. 2023 Jan 3:S1672-0229(22)00174-7. doi: 10.1016/j.gpb.2022.12.008. Epub ahead of print. PMID: 36608843.
+Wan, H., Chen, L., & Deng, M. (2023). scEMAIL: Universal and Source-free Annotation Method for scRNA-seq Data with Novel Cell-type Perception. Genomics, Proteomics & Bioinformatics.
 <br>
